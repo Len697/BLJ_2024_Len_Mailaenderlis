@@ -4,7 +4,7 @@ body {
     font-family: Arial, sans-serif;
     background-color: #eaeaea;
     color: #333;
-    
+    background 
 }
 
 .container {
@@ -58,4 +58,9 @@ h2 {
 
 .indent {
     margin-left: 20px;
+}
+
+.kleines-bild{
+    width: 300px;
+    height: auto;
 }
