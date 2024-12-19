@@ -5,14 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Baking Mailänderli cookies (Milanese cookies)</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Mailänderli Recipe</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#ingredients">Ingredients</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#steps">Steps</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#imprint">Imprint</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
     <div class="container">
-        <h1>Baking Mailänderli cookies (Milanese cookies)</h1>
+         <h1>Baking Mailänderli cookies </h1>
 
 
         <div class="section">
-            <h2>Ingredients</h2>
+            <h2 id="ingredients">Ingredients</h2>
             <ul class="text">
                 <li>250g butter</li>
                 <li>225g sugar</li>
@@ -22,7 +49,7 @@
                 <li>500g flour</li>
                 <li>Water</li>
             </ul>
-            <h2>Prepare Mailänderli cookies dough</h2>
+            <h2 id="steps">Prepare Mailänderli cookies dough</h2>
 
             <div class="step">
                 <p class="step-title">Step 1:</p>
@@ -113,8 +140,8 @@
             <a href="Mailaenderli_Recipe.pdf" class="download-button" download>Download Recipe</a>
         </div>
 
-        <div class="section" id="Impressum">
-            <h2>Impressum</h2>
+        <div class="section" id="imprrint">
+            <h2>Imprint</h2>
             <p><strong>Owner:</strong> Len Grunder</p>
             <p><strong>Email:</strong> len.grunder@edu.tbz.ch</p>
             <h3>Disclaimer</h3>
@@ -125,5 +152,7 @@
             <p>This recipe is based on content from <a href="https://www.fooby.ch/de/rezepte/14185/mailaenderli" target="_blank">fooby.ch</a>.</p>
         </div>
     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
